@@ -1,0 +1,26 @@
+Variables
+
+Variables can be called information for the computer, giving context on what certain things mean.
+For example, var value = "1", then it knows that whenever the term value comes up, it'll mean "1".
+
+Strings
+
+Strings are the text of a variable and is a major component of variables.
+
+For example, if var money = "20", "20" would be the string.
+
+Functions
+
+Functions can be considered giving a set of directions to the computer. The advantage of them is that instead of
+having to input the same equations over and over again, you can simply tell the computer to use a function that's been made earlier.
+
+if statements
+
+If statements is telling the computer to do "x" when "y" has happened. It will only do it in a yes/no situation, so if "y" isn't completely what "y" is supposed to be, then
+it won't do x.
+
+Booleans
+
+Booleans is a value that can only be one of two values. True or false.
+For example, if given the prompt 1 > 2, the computer would return it as false as 1 is not greater than 2.
+If given 3 > 2, then it will return true, as 3 is greater than 2.
