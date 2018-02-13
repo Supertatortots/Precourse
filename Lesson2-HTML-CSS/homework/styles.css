@@ -1,0 +1,18 @@
+h1 {
+  color: royalblue;
+}
+img {
+  width: 400px;
+  height: 300px; /*added height size to limit the size of pictures due to their huge resolution */
+}
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background: burlywood;
+  padding: 50px;
+  border: solid red;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
