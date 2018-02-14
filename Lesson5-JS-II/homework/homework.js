@@ -4,13 +4,18 @@ function multiplyArguments() {
   // use the arguments keyword to multiply all of the arguments together and return the product
   // if no arguments are passed in return 0
   // if one argument is passed in just return it
-  let total = 0;
-  for (let i = 0; i < arguments.length; i++) {
-      total = total * arguments[i];
+  if (arguments.length === 0) {
+    return 0;
   }
-
-  return total;
+  else if (arguments.length === 1) {
+    return arguments[0];
+  }
+  let product = arguments[0];
+   for (let i = 1; i < arguments.length; i++)
+    product *= arguments[i];
+    return product;
 }
+
 
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
