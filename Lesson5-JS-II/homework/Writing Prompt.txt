@@ -1,0 +1,26 @@
+for
+
+for loops used for repeating a certain part over and over again until it fulfills it's target condition enough times.
+
+For example, if Alice had to keep collecting apples until she collected 10 of them, she would keep collecting them until she collected 10 apples.
+
+&&
+
+&& represents the word "AND" in JS and is used to tie two statements together and checks if both statements are true, otherwise it will return it as false.
+
+For example, if Alice was told she can go home after collecting 10 apples and 10 oranges, she would collect 10 apples and check if she had collected 10 oranges. Since she hadn't,
+she can't return home until she collects 10 oranges.
+
+||
+
+|| represents the word "OR" in JS and used to tie two statements together but unlike &&, either statement can be true in order for it to return false.
+
+For example, if Alice was told she can go home after collecting 10 apples or 5 oranges, so long as she either collected 10 apples or 5 oranges, she can return home.
+She doesn't need to do both, as she only has to complete one of the goals.
+
+!
+
+! represents the world "NOT" and is used to apply the reverse to a statement. If the statement was true but given a ! before it, it will return as false. If the statement was false
+and given a ! before it, it will return as true.
+
+For example, normally Alice would collect 10 apples and then could return home. But if a ! is given, she would collect 10 apples but wouldn't be able to return home as the result is false. 
