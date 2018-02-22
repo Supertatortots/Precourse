@@ -1,7 +1,7 @@
 # Lesson 11: Javascript VIII (Recursion)
 (Attention: These are the class notes for the [Lambda School](http://www.lambdaschool.com) pre-course instruction workshop. This is meant to serve as an accompaniment to the class)
 
-In this lesson we will cover: 
+In this lesson we will cover:
 
 * Recursion
 
@@ -26,7 +26,7 @@ The same basic pieces of a `for` loop apply to a recursive function:
     // prints 1, 2, 3, 4, 5
 ```
 
-There are three parts to the code above: 
+There are three parts to the code above:
 1. In the code above we have a variable `i` that we will use to keep track of how many iterations we have run.  
 2. We also have a truth condition that needs to be checked between each iteration.  The code will run as long as it is true.
 3. We are moving towards a condition where the loop stops.  `i++` is doing this part.
